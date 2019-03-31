@@ -1,0 +1,82 @@
+.img-fluid{
+  transform: rotate(90deg);
+  width:500px;
+  height: auto;
+  
+}
+
+.lead{
+  padding-right: 95px;
+}
+
+.bio{
+    padding-right: 95px;
+}
+
+.img-portfolio{
+  width: 300px;
+  height: auto;
+}
+
+.float-lg-right{
+  margin-right: 75px;
+  padding-top: 65px;
+  font-size: larger;
+}
+
+.card{
+  padding-top: 30px;
+}
+
+form{
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.navbar-brand{
+  margin-left: 95px;
+  font-size: x-large;
+}
+
+.nav-link{
+  margin-left: 45px;
+  font-size: larger;
+}
+
+.jumbotron{
+  margin-bottom: 0px;
+}
+
+h2{
+  text-align: center;
+  margin-top: -40px;
+}
+
+.row{
+  margin: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 980px) {
+  .img-thumbnail{
+    width: 300px;
+    float: left;
+    margin-left: 0px;
+  }
+
+  .float-lg-right{
+    margin-top: -65px;
+    margin-right: 40px;
+    padding-left: 0px;
+    margin-left: 315px;
+    font-size: larger;
+  }
+
+  .card-group{
+    width: 500px;
+    height: auto;
+  }
+}
+
