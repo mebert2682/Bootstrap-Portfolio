@@ -12,62 +12,73 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Mike Ebert</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Email Address" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign-Up</button>
-      </form>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Mike Ebert</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" name="about" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" name="experience" href="#experience">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" name="contact" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Email Address" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign-Up</button>
+          </form>
+        </div>
+      </nav>
 
-  <div class="row">
 
-    <div class="col-6">
+<div class="container">
+
+
+  <div class="row" id="about">
+
+    <div class="col 12 col-md-6">
       <img src="images/IMG_1567.JPG" alt="Me & Idris" class="img-fluid">
     </div>
 
-    <div class="col-6">
-      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur, sed vel illum eligendi totam et, id modi<p>
-      <hr class="my-6">
-      <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
-      <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
-      <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
-      <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
-      <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
+    <div class="col-md-6">
+      <div class="card">
+          <h4 class="card-header">A little bit about me...</h4>
+          <div class="card-body">
 
+            <hr class="my-6">
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
+            <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
+          </div>
+      </div>
     </div>
 
   </div>
 
   <hr my-6>
 
+  <h2 class="display-4" id="experience">Experience</h2>
+
   <div class="row">
+
   
-      <div class="col-6">
+      <div class="col-md-6">
         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur, sed vel illum eligendi totam et, id modi<p>
         <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
         <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
 
       </div>
 
-      <div class="col-6">
+      <div class="col-md-6">
           <img src="images/ga_cert.JPG" alt="Google Analytics Certification" class="img-thumbnail">
       </div>
   
@@ -77,7 +88,7 @@
 
     <div class="row">
   
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <img src="images/ads_cert.JPG" alt="Google Analytics Certification" class="img-thumbnail">
     </div>
 
@@ -94,14 +105,14 @@
 
     <div class="row">
   
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur, sed vel illum eligendi totam et, id modi<p>
         <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
         <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
 
       </div>
 
-      <div class="col-6">
+      <div class="col-12 col-md-6">
           <img src="images/display_cert.JPG" alt="Google Analytics Certification" class="img-thumbnail">
       </div>
   
@@ -111,26 +122,26 @@
 
     <div class="row">
 
-    <div class="col-6">
+    <div class="col-12 col-md-6">
       <img src="images/shopping_cert.JPG" alt="Google Analytics Certification" class="img-thumbnail">
     </div>
 
-    <div class="col-6">
+    <div class="col-12 col-md-6">
       <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur, sed vel illum eligendi totam et, id modi<p>
       <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
       <p class="bio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente et ab iste accusantium quo error facere saepe aut omnis aperiam, </p>
 
-    </div>
+    </div>   
     
-    
-      
-    
-
   </div>
+
+</div>
+
+<br>
 
   
 
-    <div class="jumbotron">
+    <div class="jumbotron" id="contact">
 
         <h2 class="display-4">Let's Get In Touch!</h2>
    
